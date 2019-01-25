@@ -1,0 +1,240 @@
+* {
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+
+html {
+    width: 100%;
+    font-family: "consolas", sans-serif;
+    font-size: 1em;
+    line-height: 1em;
+    color: rgb(24, 14, 63);
+    height:100%;
+}
+
+body, header, section, footer {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    scroll-behavior: smooth;
+}
+
+span {
+    font-weight: bold;
+}
+
+.container > h1{
+    padding-top: 10%;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    background-color: rgb(24, 14, 63);
+    color: white;
+    width: 100%;
+    display: flex;    
+}
+
+a.jeu{
+    background-color: #00ff00;
+    color: rgb(24, 14, 63);
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 0.9em;
+}
+
+a.jeu:hover{
+    background-color:rgb(24, 14, 63); 
+    color: #00ff00;
+}
+
+header{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.colmun{
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    width: 15%;
+}
+
+
+header div:nth-of-type(2){
+    width: 100%;
+}
+
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;;
+    
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+    text-align: left;
+    font-size: 1em;
+}
+
+a.interf3{
+    text-decoration: none;   
+}
+a.nav{
+    color : white;
+    text-decoration: none;
+    line-height: 0.9em;   
+}
+
+a.nav:visited {
+    color: white;
+}
+
+a.nav:hover{
+    color: #00ff00;
+}
+
+
+/*************** MAIN */
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+p.explication{
+    line-height: 1.5em;
+    font-size: 1em;
+    margin-top: 50px; 
+    text-align: justify;
+}
+
+p.interf{
+    text-align: left;
+}
+
+
+h1{
+    font-size: 1.5em;
+    margin-bottom: 50px;
+}
+
+a > span{
+    color:rgb(24, 14, 63); 
+}
+
+a > span:hover{
+    color: #00ff00;
+}
+
+
+/**************** About */
+
+.contenu{
+    display: flex;
+    justify-content: space-between;
+    width: 100%
+}
+
+.jeuExplication{
+    width: 40%;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+.imgBig{
+    width: 50%;    
+}
+
+.imgBig img{
+    width: 100%;   
+}
+
+
+/**************** trailer*/
+
+#trailer .contenu{
+    display: flex;
+    justify-content: center;
+}
+
+/**************** Gallery*/
+
+#gallery .images{
+    display: flex;
+    justify-content: space-between;
+}
+
+.images{
+    display: flex;
+    flex-wrap : wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.images  div{
+    width: 320px;
+}
+
+.images div:nth-of-type(1),
+.images div:nth-of-type(2),
+.images div:nth-of-type(3){
+    margin-bottom: 50px;
+}
+
+.images div img{
+    width: 320px;
+}
+
+
+/**************** Credits*/
+.decriptionCredit{
+    background-color: rgb(24, 14, 63);
+    color:white;
+    
+}
+.decriptionCredit img{
+    width:150px;
+}
+
+.decriptionCredit h3, p{
+    text-align: center;
+}
+
+/**************** Footer*/
+
+
+footer{
+    background-color: rgb(24, 14, 63);
+    color: white;
+    width: 100%;
+    text-align: center;
+    line-height: 2em;
+    margin-top: 50px; 
+}
